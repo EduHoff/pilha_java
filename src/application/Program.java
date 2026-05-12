@@ -33,6 +33,11 @@ public class Program {
         System.out.println();
 
 
+        System.out.println("Peek top (" + pilha.peek() + "):");
+        pilha.printList();
+        System.out.println();
+
+
         pilha.pop();
         System.out.println("Pop (" + pilha.length() + "):");
         pilha.printList();

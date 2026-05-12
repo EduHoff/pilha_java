@@ -43,4 +43,9 @@ public class Stack<T> {
 	public int length() {
 		return size;
 	}
+
+    public T peek(){
+        if(top == null){return null;}
+        return top.getValue();
+    }
 }
